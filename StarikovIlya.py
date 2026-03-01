@@ -10,7 +10,7 @@ JPY = 0.49
 
 while True:
     try:
-        rubles = float(input("\nВведите сумму в рублях: "))
+        value = float(input("\nВведите сумму в валюте: "))
 
         print("Список валют:\n" "1: USD\n" "2: EUR\n" "3: CNY\n" "4: JPY\n")
 
@@ -18,13 +18,13 @@ while True:
         currency = int(input("Введите необходимую вам валюту: "))
 
         if(currency == 1):
-            print(f"{rubles} рублей = {rubles/USD} долларов")
+            print(f"{value} долларов = {value*USD} рублей")
         elif(currency == 2):
-            print(f"{rubles} рублей = {rubles/EUR} евро")
+            print(f"{value} евро = {value*EUR} рублей")
         elif(currency == 3):
-            print(f"{rubles} рублей = {rubles/CNY} юань")
+            print(f"{value} юань = {value*CNY} рублей")
         elif(currency == 4):
-            print(f"{rubles} рублей = {rubles/JPY} йен")
+            print(f"{value} йен = {value*JPY} рублей")
         else:
             print("Ошибка!!! Такой валюты нет!")
     
