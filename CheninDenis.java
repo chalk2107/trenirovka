@@ -93,6 +93,7 @@ public class ColoredPip {
     }
 }
 
+// Класс Coast, который отвечает за цвета
 public class Cost {
 
     private int generic, colorless;
