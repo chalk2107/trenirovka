@@ -58,7 +58,7 @@ public class ColoredPip {
         return symbol;
     }
 
-    public void setSymbol(String symbol) {
+    private void setSymbol(String symbol) {
         this.symbol = symbol;
     }
 
@@ -74,7 +74,7 @@ public class ColoredPip {
         return index;
     }
 
-    public void setIndex(int index) {
+    private void setIndex(int index) {
         this.index = index;
     }
 
@@ -82,7 +82,7 @@ public class ColoredPip {
         return secondIndex;
     }
 
-    public void setSecondIndex(int secondIndex) {
+    private void setSecondIndex(int secondIndex) {
         this.secondIndex = secondIndex;
     }
 
