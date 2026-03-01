@@ -14,6 +14,7 @@ while True:
 
         print("Список валют:\n" "1: USD\n" "2: EUR\n" "3: CNY\n" "4: JPY\n")
 
+
         currency = int(input("Введите необходимую вам валюту: "))
 
         if(currency == 1):
@@ -26,6 +27,7 @@ while True:
             print(f"{rubles} рублей = {rubles/JPY} йен")
         else:
             print("Ошибка!!! Такой валюты нет!")
-            
+    
+    # Обработка ошибок
     except ValueError:
         print("Ошибка. Нужно вводить числа")
