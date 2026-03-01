@@ -1,3 +1,5 @@
+# НАДО РАЗОБРАТЬСЯ
+
 firstNumber = int(input("Введите первое число: "))
 
 secondNumber = int(input("Введите второе число: "))
