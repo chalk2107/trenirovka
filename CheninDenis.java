@@ -115,7 +115,7 @@ public class Cost {
         return white.getNumber();
     }
 
-    public void setWhite(int i) {
+    private void setWhite(int i) {
         this.white.setNumber(i);
     }
 
@@ -123,7 +123,7 @@ public class Cost {
         return blue.getNumber();
     }
 
-    public void setBlue(int i) {
+    private void setBlue(int i) {
         this.blue.setNumber(i);
     }
 
@@ -131,7 +131,7 @@ public class Cost {
         return black.getNumber();
     }
 
-    public void setBlack(int i) {
+    private void setBlack(int i) {
         this.black.setNumber(i);
     }
 
@@ -139,7 +139,7 @@ public class Cost {
         return red.getNumber();
     }
 
-    public void setRed(int i) {
+    private void setRed(int i) {
         this.red.setNumber(i);
     }
 
@@ -147,7 +147,7 @@ public class Cost {
         return green.getNumber();
     }
 
-    public void setGreen(int i) {
+    private void setGreen(int i) {
         this.green.setNumber(i);
     }
 
@@ -155,7 +155,7 @@ public class Cost {
         return colorless;
     }
 
-    public void setColorless(int i) {
+    private void setColorless(int i) {
         this.colorless = i;
     }
 
