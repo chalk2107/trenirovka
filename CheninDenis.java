@@ -296,11 +296,13 @@ void main() {
     IO.println(String.format(cost.getFullManaCost()));
     cost = new Cost("grUBw"); // WUBRG
     IO.println(String.format(cost.getFullManaCost()));
+
     try{
         cost = new Cost("ipwyi"); // ошибка
     } catch(IllegalArgumentException e) {
         IO.println(String.format("ошибка"));
     }
+    
     try{
         cost = new Cost("w1u"); // ошибка
     } catch(IllegalArgumentException e) {
