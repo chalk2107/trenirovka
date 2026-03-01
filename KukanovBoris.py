@@ -27,3 +27,5 @@ match operation:
         result = "Ошибка!"
 
 print(f"Результат операции: {result}")
+
+# СЛОЖНАЯ ПРОГА
