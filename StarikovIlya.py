@@ -29,7 +29,7 @@ while True:
         elif(currency == 5):
             print(f"{rubles} рублей = {rubles/BYN} белорусских рублей")
         else:
-            print("Ошибка!!! Такой валюты нет!")
+            print("Ошибка!!! Такой валюты нет! Попробуйте еще раз")
     
     # Обработка ошибок
     except ValueError:
