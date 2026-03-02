@@ -27,7 +27,7 @@ match operation:
         else:
             result = firstNumber / secondNumber
     case _:
-        print("Операция не выбрана")
+        print("Операция не выбрана, выберите операцию")
         result = "Ошибка!"
 
 print(f"Результат операции: {result}")
