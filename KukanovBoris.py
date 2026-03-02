@@ -22,7 +22,7 @@ match operation:
         result = firstNumber * secondNumber
     case 4:
         if (secondNumber == 0):
-            print("НЕЛЬЗЯ ДЕЛИТЬ НА НОЛЬ!!!!!!")
+            print("Деление на ноль запрещено!")
             result = "Ошибка!"
         else:
             result = firstNumber / secondNumber
