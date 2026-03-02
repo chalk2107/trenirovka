@@ -15,7 +15,7 @@ while True:
         value = float(input("\nВведите сумму в валюте: "))
 
         print("Список валют:\n" "1: USD\n" "2: EUR\n" "3: CNY\n" "4: JPY\n" "5: BYN\n")
-
+        # ЕЕЕБАДИ
         currency = int(input("Введите необходимую вам валюту: "))
 
         if(currency == 1):
