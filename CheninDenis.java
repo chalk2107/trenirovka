@@ -297,6 +297,11 @@ void main() {
     cost = new Cost("grUBw"); // WUBRG
     IO.println(String.format(cost.getFullManaCost()));
     try{
+        cost = new Cost("R/G"); // ошибка
+    } catch(IllegalArgumentException e) {
+        IO.println(String.format("ошибка"));
+    }
+    try{
         cost = new Cost("ipwyi"); // ошибка
     } catch(IllegalArgumentException e) {
         IO.println(String.format("ошибка"));
