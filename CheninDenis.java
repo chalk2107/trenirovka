@@ -298,6 +298,13 @@ void main() {
     IO.println(String.format(cost.getFullManaCost()));
 
     try{
+        cost = new Cost("R/P"); // сейчас - ошибка
+    } catch(IllegalArgumentException e) {
+        IO.println(String.format("ошибка"));
+        // в будущем - должно выдавать "R/P" (стоимость - одна красная фирексийская мана, конвертированная стоимость - 1)
+    }
+
+    try{
         cost = new Cost("ipwyi"); // ошибка
     } catch(IllegalArgumentException e) {
         IO.println(String.format("ошибка"));
