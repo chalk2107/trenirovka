@@ -34,3 +34,5 @@ while True:
     # Обработка ошибок
     except ValueError:
         print("Ошибка. Нужно вводить числа")
+    
+    print("Ты крутой челик)")
