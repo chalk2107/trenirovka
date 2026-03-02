@@ -302,6 +302,12 @@ void main() {
         IO.println(String.format("ошибка"));
     }
     try{
+        cost = new Cost("2/G"); // ошибка
+    } catch(IllegalArgumentException e) {
+        IO.println(String.format("ошибка"));
+        // должно выдавать "2/G", конв. стоимость = 2
+    }
+    try{
         cost = new Cost("ipwyi"); // ошибка
     } catch(IllegalArgumentException e) {
         IO.println(String.format("ошибка"));
