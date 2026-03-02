@@ -305,6 +305,11 @@ void main() {
     }
 
     try{
+        cost = new Cost("R/G"); // ошибка
+    } catch(IllegalArgumentException e) {
+        IO.println(String.format("ошибка"));
+    }
+    try{
         cost = new Cost("ipwyi"); // ошибка
     } catch(IllegalArgumentException e) {
         IO.println(String.format("ошибка"));
